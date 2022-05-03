@@ -19,6 +19,61 @@ body{
     padding: 2% 10%;
 }
 
+.selecione {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.selecione h2 {
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    
+}
+
+.selecionar_tipo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.selecionar_tipo a {
+    text-decoration: none;
+    color: rgb(25, 25, 25);
+}
+
+.h3_select {
+    font-size: 3em;
+    transition: all .2s ease-in-out;
+    transition-duration: all 0.2s;
+}
+
+.h3_select_2 {
+    font-size: 3em;
+    transition: all .2s ease-in-out;
+    transition-duration: all 0.2s;
+}
+
+.h3_select a:hover {
+    transition: all .2s ease-in-out;
+    transition-duration: all 0.2s;
+    color: azure;
+    cursor: pointer;
+}
+
+.h3_select_2 a:hover {
+    transition: all .2s ease-in-out;
+    transition-duration: all 0.2s;
+    color: #23b58b;
+    cursor: pointer;
+}
+
+
 .container{
     width: 100%;
     min-height: 600px;
